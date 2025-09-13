@@ -26,7 +26,26 @@ It enables **real-time Sign-to-Text** conversion via webcam and also supports **
 ---
 
 ## 🚀 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/Jyothika-007/hand-gesture-recognition-for-Indian-sign-language-using-CNN.git
-   cd hand-gesture-recognition-for-Indian-sign-language-using-CNN
+
+1. **Clone this repository**  
+```bash
+git clone https://github.com/Jyothika-007/hand-gesture-recognition-for-Indian-sign-language-using-CNN.git
+cd hand-gesture-recognition-for-Indian-sign-language-using-CNN
+```
+2. **Install dependencies**  
+3. **Collect dataset**  
+4. **Create folders**  
+5. **Preprocess and split the dataset**  
+6. **Train the model**  
+7. **Run the GUI**  
+
+```bash
+pip install -r requirements.txt
+python DataCollection.py
+python foldercreation.py
+python preprocess_split.py
+python model.py
+python gui.py
+- **Sign-to-Text**: Show a gesture in front of the webcam → converts it to text.  
+- **Text-to-Sign**: Type text → shows corresponding gesture images.
+```
