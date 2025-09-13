@@ -1,5 +1,3 @@
-# hand-gesture-recognition-for-Indian-sign-language-using-CNN
-"Hand Gesture Recognition for Indian Sign Language (A–Z, 0–9) using CNN with real-time Sign-to-Text and Text-to-Sign translation, built with Python, TensorFlow, OpenCV, and Tkinter."
 # Hand Gesture Recognition for Indian Sign Language
 
 This project focuses on recognizing **static Indian Sign Language (ISL) hand gestures (A–Z, 0–9)** using a **Convolutional Neural Network (CNN)**.  
